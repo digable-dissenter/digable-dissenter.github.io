@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "DS4I: Kenneth Ssekimpi"
+  navbar:
+    left:
+      - href: https://github.com/digable-dissenter/
+        text: Home
+      - Assignment 1.qmd
+      - Assignment 2.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
