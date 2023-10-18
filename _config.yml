@@ -8,11 +8,13 @@ website:
     left:
       - href: https://github.com/digable-dissenter/
         text: Home
-      - Assignment 1.qmd
-      - Assignment 2.qmd
+      - href: Assignment 1.qmd
+        text: Assignment 1
+      - href: Assignment 2.qmd
+        text: Assignment 2
 
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: index.css
     toc: true
