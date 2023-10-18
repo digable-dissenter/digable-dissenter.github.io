@@ -9,15 +9,22 @@
     <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="https://avatars.githubusercontent.com/u/8685778?v=4" type="image/png">
-    <li><a href="/">Home</a></li>
-    <li><a href="/about">About</a></li>
-    <li class="assignments">
-      <h2>Data Science for Industry</h2>
-      <ul>
-        <li><a href="https://digable-dissenter.github.io/ds4l-assignment-1">Assignment 1</a></li>
-        <li><a href="https://digable-dissenter.github.io/ds4l-assignment-2">Assignment 2</a></li>
-      </ul>
-    </li>
+    <ul class="navbar">
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle">Home</a>
+        <ul class="dropdown-menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li class="assignments">
+            <a href="#" class="dropdown-toggle">Data Science for Industry</a>
+            <ul class="dropdown-menu">
+              <li><a href="https://digable-dissenter.github.io/ds4l-assignment-1">Assignment 1</a></li>
+              <li><a href="https://digable-dissenter.github.io/ds4l-assignment-2">Assignment 2</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
   </head>
 
   <body>
