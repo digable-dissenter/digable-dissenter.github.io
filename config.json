@@ -3,8 +3,8 @@
   "username": "digable-dissenter",
   "name": "Kenneth Ssekimpi",
   "userimg": "https://avatars.githubusercontent.com/u/8685778?v=4",
-  "sort": "created",
-  "order": "asc",
+  "sort": "updated",
+  "order": "desc",
   "includeFork": false,
   "theme": "light.css",
   "types": [
